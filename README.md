@@ -6,7 +6,7 @@
 - install all dependancy using `npm install` command
 - create `.env` file and add following variables
 
-  - `DATABASE_URL="postgresql://<your_postgre_username>:<your database password>@localhost:5432/<datbase_name>?schema=public"`
+  - `DATABASE_URL="postgresql://<your_postgre_username>:<your database password>@localhost:5432/<database_name>?schema=public"`
 
 - Run a migration to create your database tables with Prisma Migrate
   - `npx prisma migrate dev --name '<your comments>'`
